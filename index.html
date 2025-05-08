@@ -109,6 +109,28 @@
     </div>
   </div>
 
+    <!-- 📘 Toggle FAQ Button -->
+    <div style="margin-top: 40px;">
+      <button onclick="toggleFAQ()" style="background: none; border: none; color: #fa8c16; cursor: pointer; font-weight: bold;">
+        📘 View Frequently Asked Questions
+      </button>
+    </div>
+
+    <!-- 📘 Frequently Asked Questions -->
+    <div class="faq" id="faq-section">
+      <h3>❓ What is POB88?</h3>
+      <p>POB88 is an entertainment platform offering welcome bonuses, daily rewards, and fast service for new and experienced players across Southeast Asia.</p>
+      <h3>❓ Do I need to deposit to get the welcome bonus?</h3>
+      <p>No deposit is needed. New users can receive up to 58.88 bonus instantly upon registration.</p>
+      <h3>❓ Is this platform legal and safe?</h3>
+      <p>Yes, POB88 operates under a licensed framework and promotes responsible gaming practices. Your information and privacy are protected.</p>
+      <h3>❓ Can I use my mobile phone to register and play?</h3>
+      <p>Absolutely. The platform is mobile-optimized and accessible from any smartphone or tablet.</p>
+      <h3>❓ How can I get in touch if I need help?</h3>
+      <p>You may reach out via our 24/7 live chat support available directly on our website after registration.</p>
+    </div>
+  </div>
+  
   <!-- Hidden SEO Copy for Indexing -->
   <div class="seo-content">
     <h2>POB88 – Your Trusted Online Gaming Platform</h2>
@@ -131,6 +153,10 @@
         function toggleDisclaimer() {
       const el = document.getElementById('disclaimer-text');
       el.style.display = el.style.display === 'none' ? 'block' : 'none';
+    }
+        function toggleFAQ() {
+      const faq = document.getElementById('faq-section');
+      faq.style.display = faq.style.display === 'none' ? 'block' : 'none';
     }
   </script>
 </body>

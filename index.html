@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,7 +19,11 @@
   .seo-content {
     display: none;
   }
-    
+
+  .faq {
+    display: none;
+  }
+
     .container {
       padding: 40px 20px;
     }
@@ -107,7 +110,6 @@
       <p>If you or someone you know may have a gambling issue, please seek help from certified support organizations.</p>
       <p>By using this site, you acknowledge and agree to our <a href="/terms">Terms of Service</a> and <a href="/privacy">Privacy Policy</a>.</p>
     </div>
-  </div>
 
     <!-- 📘 Toggle FAQ Button -->
     <div style="margin-top: 20px;">
@@ -117,7 +119,7 @@
     </div>
 
     <!-- 📘 Frequently Asked Questions -->
-    <div class="faq" id="faq-section" style="display: none;">
+    <div class="faq" id="faq-section" style="margin-top: 15px; text-align: left; max-width: 800px; margin-left: auto; margin-right: auto; font-size: 14px; color: #555;">
       <h3>❓ What is POB88?</h3>
       <p>POB88 is an entertainment platform offering welcome bonuses, daily rewards, and fast service for new and experienced players across Southeast Asia.</p>
       <h3>❓ Do I need to deposit to get the welcome bonus?</h3>
@@ -130,7 +132,7 @@
       <p>You may reach out via our 24/7 live chat support available directly on our website after registration.</p>
     </div>
   </div>
-  
+
   <!-- Hidden SEO Copy for Indexing -->
   <div class="seo-content">
     <h2>POB88 – Your Trusted Online Gaming Platform</h2>
@@ -150,12 +152,12 @@
         window.location.href = 'https://pob88.vip/register';
       }, 500);
     });
-        function toggleDisclaimer() {
+    function toggleDisclaimer() {
       const el = document.getElementById('disclaimer-text');
       el.style.display = el.style.display === 'none' ? 'block' : 'none';
     }
-    
-        function toggleFAQ() {
+
+    function toggleFAQ() {
       const faq = document.getElementById('faq-section');
       faq.style.display = faq.style.display === 'none' ? 'block' : 'none';
     }
